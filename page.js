@@ -13,7 +13,7 @@ $(function() {
         var sex = $('#sex').val();
         var year = $('#year').val();
         console.log(day + ',' + month + ',' + year);
-        var post_dma = 'คุณเกิดวันที่' + ' ' + day + ' ' + pre_month[month - 1] + ' ' + pre_year[year] + '  ';
+        var post_dma = 'คุณเกิดวันที่' + ' ' + day + ' ' + pre_month[month - 1] + ' ' + pre_year[year-1] + '  ';
         var post_age = 'อายุของคุณคือ ' + ' ' + year + ' ' + 'ปี' + '  ';
         var post_sex = 'เพศ : ' + pre_sex[sex - 1];
 
